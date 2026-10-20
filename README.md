@@ -1,70 +1,113 @@
-# Hi, I'm Love Dhimaan
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-banner-light.svg">
+  <img alt="Love Dhimaan - Engineering Manager and Frontend Architect" src="./assets/profile-banner-light.svg" width="100%">
+</picture>
 
-### Engineering Manager | Frontend Architect | Hands-on Full-Stack Engineer
+<div align="center">
 
-I build scalable enterprise SaaS products, lead engineering teams, and stay
-close to the code. My background is in React, Next.js, TypeScript, frontend
-architecture, and performance; I also build Node.js services and am expanding
-into production LLM and RAG systems.
+### I build scalable products, engineering systems, and teams that ship.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-thelovedhimaan.com-111111?style=flat-square&logo=vercel)](https://thelovedhimaan.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/thelovedhimaan)
-[![Email](https://img.shields.io/badge/Email-Say%20hello-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:thelovedhimaan@gmail.com)
+Hands-on Engineering Manager and Frontend Architect with 5+ years in enterprise
+SaaS, from production React architecture to Node.js services and AI-enabled
+development workflows.
 
-## What I do
+[![Portfolio](https://img.shields.io/badge/VIEW_PORTFOLIO-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://thelovedhimaan.com)
+[![LinkedIn](https://img.shields.io/badge/CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thelovedhimaan)
+[![Email](https://img.shields.io/badge/EMAIL_ME-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thelovedhimaan@gmail.com)
 
-- Lead a **17-person engineering team** across frontend, backend, mobile, and AI.
-- Architect data-heavy interfaces handling **10K-50K+ records**.
-- Delivered **30-45% faster** dashboard performance through virtualization,
-  pagination, code splitting, lazy loading, and API optimization.
-- Built onboarding automation that reduced enterprise onboarding time by
-  approximately **60%**.
-- Design reusable component systems, enterprise workflows, PDF generation, and
-  direct ZPL printer integrations.
-- Introduce practical AI-assisted development workflows while continuing to
-  ship production code.
+</div>
 
-## Technology
+## Impact at a glance
+
+| **17-person team** | **30-45% faster** | **60% less time** |
+|:---:|:---:|:---:|
+| Frontend, backend, mobile, and AI | Large-dashboard load and render performance | Enterprise customer onboarding |
+
+| **10K-50K+ records** | **2 releases/month** | **9 engineering hires** |
+|:---:|:---:|:---:|
+| Data-heavy product interfaces | Plus production hotfixes | Built and mentored the team |
+
+## What I bring to a team
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Product engineering</h3>
+      <p>React, Next.js, TypeScript, Node.js, Express, REST APIs, PostgreSQL, and MongoDB.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Architecture &amp; performance</h3>
+      <p>Design systems, reusable components, virtualization, pagination, code splitting, and API optimization.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Engineering leadership</h3>
+      <p>Technical direction, hiring, mentoring, architecture reviews, sprint planning, releases, and customer delivery.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Applied AI</h3>
+      <p>AI-assisted development, prompt workflows, LLM integration, RAG, evaluation, and production guardrails.</p>
+    </td>
+  </tr>
+</table>
+
+## Featured engineering work
+
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <h3><a href="https://github.com/thelovedhimaan/thelovedhimaan-portfolio">Engineering portfolio</a></h3>
+      <p>A Next.js and TypeScript portfolio presenting engineering leadership, frontend architecture, measurable performance work, and hands-on product delivery.</p>
+      <p><strong>Next.js · React · TypeScript · MDX · Sass</strong></p>
+    </td>
+    <td width="40%" valign="middle" align="center">
+      <a href="https://thelovedhimaan.com"><strong>LIVE PORTFOLIO →</strong></a>
+    </td>
+  </tr>
+</table>
+
+### Building next
+
+| Analytics workspace | Onboarding pipeline | AI incident intelligence |
+|:---|:---|:---|
+| High-performance exploration of large datasets | Resilient CSV validation, mapping, and progress tracking | RAG-assisted root-cause analysis and knowledge retrieval |
+| Performance evidence and architecture decisions | Background processing and actionable error recovery | Evaluation, citations, observability, and guardrails |
+
+These will be production-grade case studies with tests, CI checks, technical
+documentation, measurable results, and live demonstrations - not isolated demos.
+
+## Technology map
+
+| Area | Tools and practices |
+|---|---|
+| **Frontend** | React, Next.js, TypeScript, JavaScript, Ant Design, Material UI, Tailwind CSS |
+| **Backend & data** | Node.js, Express, REST APIs, PostgreSQL, MongoDB |
+| **Architecture** | Design systems, reusable components, data-heavy interfaces, performance optimization |
+| **Infrastructure** | Docker, CI/CD, AWS, Vercel, Git |
+| **AI engineering** | LLM integration, RAG, prompt workflows, evaluation, observability |
+| **Leadership** | Technical direction, hiring, mentoring, code reviews, Scrum, Kanban, release management |
+
+## Current focus
 
 ```text
-Frontend      React, Next.js, TypeScript, JavaScript, Ant Design, Material UI
-Backend       Node.js, Express, REST APIs, PostgreSQL, MongoDB
-Architecture  Design systems, performance, virtualization, scalable UI patterns
-Delivery      Docker, CI/CD, AWS, Vercel, Git
-AI            LLM integration, RAG, Claude, GitHub Copilot, prompt workflows
-Leadership    Architecture reviews, hiring, mentoring, Scrum, Kanban, releases
+01  Turn enterprise-scale engineering problems into public case studies
+02  Build reliable LLM and RAG features with evaluation and observability
+03  Create engineering systems that help teams ship better software
 ```
 
-## Selected work
+---
 
-### [Engineering portfolio](https://github.com/thelovedhimaan/thelovedhimaan-portfolio)
+<div align="center">
 
-A Next.js and TypeScript portfolio covering engineering leadership, frontend
-architecture, performance work, and hands-on product delivery.
+### Let's build software that survives real users, real data, and real scale.
 
-### Current build focus
+[Portfolio](https://thelovedhimaan.com) ·
+[LinkedIn](https://www.linkedin.com/in/thelovedhimaan) ·
+[Email](mailto:thelovedhimaan@gmail.com)
 
-I am turning real enterprise engineering problems into public, production-grade
-case studies:
+Open to conversations about **Engineering Manager**, **Frontend Architect**,
+**Technical Lead**, and hands-on product engineering opportunities.
 
-- A high-performance analytics workspace for large datasets
-- A resilient CSV onboarding and validation pipeline
-- An AI-assisted incident analysis and knowledge retrieval system
-
-Each project will include tests, architecture decisions, performance evidence,
-CI checks, documentation, and a live demo.
-
-## Currently exploring
-
-- Production LLM integrations and retrieval-augmented generation
-- Evaluation, observability, and guardrails for AI features
-- Better engineering systems for teams shipping enterprise software
-
-## Let's connect
-
-I am open to conversations about Engineering Manager, Frontend Architect,
-Technical Lead, and hands-on product engineering opportunities.
-
-- Portfolio: [thelovedhimaan.com](https://thelovedhimaan.com)
-- LinkedIn: [linkedin.com/in/thelovedhimaan](https://www.linkedin.com/in/thelovedhimaan)
-- Email: [thelovedhimaan@gmail.com](mailto:thelovedhimaan@gmail.com)
+</div>
