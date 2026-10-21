@@ -57,6 +57,14 @@
       <p><a href="https://thelovedhimaan.com"><img src="./assets/button-view-live.svg" alt="View Engineering portfolio live" height="28"></a></p>
     </td>
   </tr>
+  <tr>
+    <td valign="top">
+      <h3><a href="https://github.com/thelovedhimaan/color-pallet">Color Palette Studio</a></h3>
+      <p>A completed, local-first color workspace for building palettes, checking WCAG contrast, simulating color-vision deficiencies, saving versions, sharing palettes, and exporting design tokens.</p>
+      <p><code>React 19</code> <code>TypeScript</code> <code>Vite</code> <code>Vitest</code> <code>WCAG</code></p>
+      <p><a href="https://color-pallet-drab.vercel.app"><img src="./assets/button-view-live.svg" alt="View Color Palette Studio live" height="28"></a></p>
+    </td>
+  </tr>
 </table>
 
 ## Building next
