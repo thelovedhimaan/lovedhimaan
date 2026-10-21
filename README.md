@@ -54,9 +54,7 @@
       <h3><a href="https://github.com/thelovedhimaan/thelovedhimaan-portfolio">Engineering portfolio</a></h3>
       <p>A Next.js portfolio focused on engineering leadership, frontend architecture, measurable performance work, and hands-on product delivery.</p>
       <p><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>MDX</code> <code>Sass</code></p>
-    </td>
-    <td width="180" align="center" valign="middle">
-      <a href="https://thelovedhimaan.com"><strong>VIEW LIVE ↗</strong></a>
+      <p><a href="https://thelovedhimaan.com"><img src="./assets/button-view-live.svg" alt="View Engineering portfolio live" height="38"></a></p>
     </td>
   </tr>
 </table>
