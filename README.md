@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://thelovedhimaan.com"><img src="./assets/button-portfolio.svg" alt="View portfolio" height="42"></a>&nbsp;
-  <a href="https://www.linkedin.com/in/thelovedhimaan"><img src="./assets/button-linkedin.svg" alt="Connect on LinkedIn" height="42"></a>&nbsp;
-  <a href="mailto:thelovedhimaan@gmail.com"><img src="./assets/button-email.svg" alt="Send an email" height="42"></a>
+  <a href="https://thelovedhimaan.com"><img src="./assets/button-portfolio.svg" alt="View portfolio" height="28"></a>&nbsp;
+  <a href="https://www.linkedin.com/in/thelovedhimaan"><img src="./assets/button-linkedin.svg" alt="Connect on LinkedIn" height="28"></a>&nbsp;
+  <a href="mailto:thelovedhimaan@gmail.com"><img src="./assets/button-email.svg" alt="Send an email" height="28"></a>
 </p>
 
 ## Impact
@@ -54,7 +54,7 @@
       <h3><a href="https://github.com/thelovedhimaan/thelovedhimaan-portfolio">Engineering portfolio</a></h3>
       <p>A Next.js portfolio focused on engineering leadership, frontend architecture, measurable performance work, and hands-on product delivery.</p>
       <p><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>MDX</code> <code>Sass</code></p>
-      <p><a href="https://thelovedhimaan.com"><img src="./assets/button-view-live.svg" alt="View Engineering portfolio live" height="38"></a></p>
+      <p><a href="https://thelovedhimaan.com"><img src="./assets/button-view-live.svg" alt="View Engineering portfolio live" height="28"></a></p>
     </td>
   </tr>
 </table>
