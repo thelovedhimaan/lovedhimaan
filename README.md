@@ -1,49 +1,65 @@
-# Love Dhimaan - Engineering Portfolio
+<div align="center">
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=111111)](https://react.dev/)
-[![Production build](https://img.shields.io/badge/production_build-passing-2ea44f)](#run-locally)
+# Love Dhimaan — Engineering Portfolio
 
-Personal portfolio for **Love Dhimaan**, a hands-on Engineering Manager and
-Frontend Architect building enterprise SaaS products, scalable frontend systems,
-and high-performing engineering teams.
+**Engineering leadership, frontend architecture, and measurable product delivery.**
 
-**[View the portfolio](https://thelovedhimaan.com)** |
-**[LinkedIn](https://www.linkedin.com/in/thelovedhimaan)** |
-**[GitHub](https://github.com/thelovedhimaan)**
+[![Live portfolio](https://img.shields.io/badge/Live_Portfolio-Visit-6D4AFF?style=for-the-badge&logo=vercel&logoColor=white)](https://thelovedhimaan.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thelovedhimaan)
 
-## What this portfolio highlights
+[![Next.js 16](https://img.shields.io/badge/Next.js_16-111111?style=flat-square&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![React 19](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript 5](https://img.shields.io/badge/TypeScript_5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white)](https://sass-lang.com/)
+[![Production build](https://img.shields.io/badge/Build-Passing-2EA44F?style=flat-square&logo=githubactions&logoColor=white)](#run-locally)
 
-- Leadership of a **17-person engineering team** across frontend, backend, mobile,
-  and AI, delivering two production releases per month.
-- Frontend architecture for data-heavy dashboards handling **10K-50K+ records**,
-  with **30-45% faster** load and render performance.
-- Onboarding automation that reduced enterprise customer onboarding time by
-  approximately **60%**.
-- Reusable component architecture, design-system migration, REST API optimization,
-  PDF generation, and direct ZPL printer integration.
-- Hands-on Node.js backend work and practical AI-assisted engineering workflows,
-  with ongoing work in LLM integration and retrieval-augmented generation.
+</div>
 
-## Built with
+## Overview
 
-- Next.js 16 and React 19
-- TypeScript and Sass
-- MDX for project and article content
-- Once UI for the design system
-- Biome for formatting
-- Vercel-ready production configuration
+This is the personal portfolio of **Love Dhimaan**, a hands-on Engineering
+Manager and Frontend Architect building enterprise SaaS products, scalable
+frontend systems, and high-performing engineering teams.
 
-## Repository structure
+The site presents engineering work through outcomes, architecture decisions,
+performance evidence, and practical delivery experience.
+
+## Impact
+
+| Engineering leadership | Frontend performance | Product automation |
+| :--- | :--- | :--- |
+| Led a **17-person team** across frontend, backend, mobile, and AI | Improved data-heavy dashboard performance by **30–45%** | Reduced enterprise onboarding time by approximately **60%** |
+| Shipped two production releases per month | Built interfaces handling **10K–50K+ records** | Designed resilient customer workflows and integrations |
+
+## What the portfolio covers
+
+- Engineering leadership, hiring, mentoring, reviews, and release planning
+- Scalable React and Next.js architecture for enterprise applications
+- Design systems and reusable component foundations
+- REST API optimization, PDF generation, and direct ZPL printer integration
+- Node.js backend services and AI-assisted engineering workflows
+- Ongoing work in LLM integration and retrieval-augmented generation
+
+## Technology
+
+| Area | Stack |
+| :--- | :--- |
+| Framework | Next.js 16, React 19 |
+| Language | TypeScript 5 |
+| Styling | Sass, Once UI |
+| Content | MDX |
+| Quality | Biome, ESLint |
+| Deployment | Vercel-ready production configuration |
+
+## Project structure
 
 ```text
 src/
-|-- app/          # App Router pages, metadata, RSS, and API routes
-|-- components/   # Shared UI and feature components
-|-- resources/    # Portfolio content, navigation, and visual configuration
-|-- types/        # Shared TypeScript contracts
-`-- utils/        # Date and content helpers
+├── app/          # App Router pages, metadata, RSS, and API routes
+├── components/   # Shared UI and feature components
+├── resources/    # Portfolio content, navigation, and visual configuration
+├── types/        # Shared TypeScript contracts
+└── utils/        # Date and content helpers
 ```
 
 ## Run locally
@@ -57,7 +73,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-Verify a production build with:
+To verify the production build:
 
 ```bash
 npm run build
@@ -69,14 +85,14 @@ npm start
 
 ## Current focus
 
-- Replace template project entries with real, outcome-focused case studies.
-- Add screenshots, architecture notes, technical decisions, and measurable results.
-- Publish modern full-stack and AI/RAG projects with tests and live demos.
-- Add automated quality checks and deployment previews.
+- Replace template entries with outcome-focused case studies
+- Add screenshots, architecture notes, technical decisions, and measurements
+- Publish modern full-stack and AI/RAG projects with tests and live demos
+- Add automated quality checks and deployment previews
 
 ## Contact
 
-For engineering leadership, frontend architecture, or hands-on product engineering
-opportunities, connect with me on
+For engineering leadership, frontend architecture, or hands-on product
+engineering opportunities, connect on
 [LinkedIn](https://www.linkedin.com/in/thelovedhimaan) or email
 [thelovedhimaan@gmail.com](mailto:thelovedhimaan@gmail.com).
