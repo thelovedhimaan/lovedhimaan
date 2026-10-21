@@ -13,6 +13,8 @@
 [![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white)](https://sass-lang.com/)
 [![Production build](https://img.shields.io/badge/Build-Passing-2EA44F?style=flat-square&logo=githubactions&logoColor=white)](#run-locally)
 
+[**View the roadmap →**](./ROADMAP.md)
+
 </div>
 
 ## Overview
