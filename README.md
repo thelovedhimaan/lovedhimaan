@@ -65,6 +65,14 @@
       <p><a href="https://color-pallet-drab.vercel.app"><img src="./assets/button-view-live.svg" alt="View Color Palette Studio live" height="28"></a></p>
     </td>
   </tr>
+  <tr>
+    <td valign="top">
+      <h3><a href="https://github.com/thelovedhimaan/dynamic_chemicals">Dynamic Chemicals</a></h3>
+      <p>A full-stack catalogue and order operations platform with multi-item personalization, image previews, private tracking, admin-managed pricing and status updates, and WhatsApp, email, and AI support integrations.</p>
+      <p><code>Next.js 16</code> <code>React 19</code> <code>TypeScript</code> <code>Node.js</code> <code>Express</code></p>
+      <p><a href="https://dynamicchemicals.vercel.app"><img src="./assets/button-view-live.svg" alt="View Dynamic Chemicals live" height="28"></a></p>
+    </td>
+  </tr>
 </table>
 
 ## Building next
