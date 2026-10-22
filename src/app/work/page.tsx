@@ -69,7 +69,7 @@ export default function WorkPage() {
       <section className="work-principles">
         <div className="work-principles__intro"><Text variant="label-strong-s" onBackground="brand-weak">How I build</Text><Heading variant="heading-strong-xl">Engineering beyond the interface</Heading><Text onBackground="neutral-weak">Each project is treated as a complete product system, including its customer journey, operating model, quality evidence, and recovery path.</Text></div>
         <div className="work-principles__grid">
-          {principles.map(([number, title, description]) => <article key={number}><span>{number}</span><Heading variant="heading-strong-s">{title}</Heading><Text onBackground="neutral-weak">{description}</Text></article>)}
+          {principles.map(([number, title, description]) => <article key={number}><span className="work-principle__number">{number}</span><div><Heading variant="heading-strong-s">{title}</Heading><Text onBackground="neutral-weak">{description}</Text></div></article>)}
         </div>
       </section>
     </Column>

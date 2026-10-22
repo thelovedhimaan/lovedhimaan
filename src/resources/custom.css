@@ -147,12 +147,12 @@
   }
 }
 
-.work-page { gap: 4rem; padding-block: clamp(2.5rem, 7vw, 6rem); }
-.work-hero { display: grid; gap: 1.25rem; width: 100%; max-width: 58rem; text-align: center; }
+.work-page { gap: 3.25rem; padding: .75rem 0 3.5rem; }
+.work-hero { display: grid; gap: 1rem; width: 100%; max-width: 58rem; text-align: center; }
 .work-hero > * { justify-self: center; }
 .work-hero h1 { max-width: 52rem; letter-spacing: -.045em; }
 .work-hero > p { max-width: 46rem; line-height: 1.55; }
-.work-summary { display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem; margin-top: .5rem; }
+.work-summary { display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem; margin-top: .25rem; }
 .work-summary span { padding: .55rem .75rem; border: 1px solid var(--neutral-alpha-medium); border-radius: 999px; color: var(--neutral-on-background-medium); background: var(--neutral-alpha-weak); font-size: .78rem; }
 .work-summary strong { margin-right: .25rem; color: var(--neutral-on-background-strong); }
 .work-projects { display: grid; gap: 1.25rem; width: 100%; }
@@ -183,9 +183,10 @@
 .work-principles__intro { display: grid; align-content: start; gap: .8rem; }
 .work-principles__intro p { line-height: 1.6; }
 .work-principles__grid { display: grid; }
-.work-principles__grid article { display: grid; grid-template-columns: 2rem minmax(0, 1fr); gap: .4rem .8rem; padding: 1.1rem 0; border-top: 1px solid var(--neutral-alpha-medium); }
-.work-principles__grid article > span { grid-row: 1 / 3; color: var(--brand-on-background-weak); font-family: var(--font-code); font-size: .72rem; }
-.work-principles__grid article p { line-height: 1.5; }
+.work-principles__grid article { display: grid; grid-template-columns: 2rem minmax(0, 1fr); align-items: start; gap: .8rem; padding: 1.1rem 0; border-top: 1px solid var(--neutral-alpha-medium); }
+.work-principle__number { padding-top: .15rem; color: var(--brand-on-background-weak); font-family: var(--font-code); font-size: .72rem; }
+.work-principles__grid article > div { display: grid; gap: .35rem; }
+.work-principles__grid article p { max-width: 36rem; line-height: 1.5; }
 
 @media (max-width: 720px) {
   .work-page { gap: 3rem; }
