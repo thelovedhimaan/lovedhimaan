@@ -1,303 +1,77 @@
-import {
-  Meta,
-  Schema,
-  Column,
-  Heading,
-  Media,
-  Text,
-  Row,
-} from "@once-ui-system/core";
+import { Column, Heading, Meta, Schema, Text } from "@once-ui-system/core";
 
-import { baseURL, about, person, work } from "@/resources";
+import { baseURL, person, work } from "@/resources";
 
 export async function generateMetadata() {
-  return Meta.generate({
-    title: work.title,
-    description: work.description,
-    baseURL,
-    path: work.path,
-    image: "/images/projects/project-01/cover-01.jpg",
-  });
+  return Meta.generate({ title: work.title, description: work.description, baseURL, path: work.path, image: "/images/og/home.jpg" });
 }
 
-const post = {
-  title: "Engineering Beyond the Interface",
-  publishedAt: "2026-06-14",
-  summary:
-    "Thoughts on building scalable frontend systems, balancing business needs with technical excellence, and the principles that shape my approach to software engineering.",
-  images: [
-    "/images/projects/project-01/cover-01.jpg",
-    "/images/projects/project-01/cover-02.jpg",
-  ],
-  team: [
-    {
-      name: "Love Dhimaan",
-      role: "Senior Frontend Engineer",
-      avatar: "/images/avatar.jpg",
-      linkedIn: "https://www.linkedin.com/in/thelovedhimaan/",
-    },
-  ],
-};
+const projects = [
+  {
+    number: "01", name: "Dynamic Chemicals", category: "Full-stack commerce and operations",
+    description: "A production catalogue and order-management platform for personalized chemical products, covering discovery, multi-item requests, private tracking, pricing, and staff operations.",
+    highlights: ["Multi-item ordering with customization and image previews", "JWT-protected admin pricing and order workflows", "WhatsApp, email, and grounded AI support adapters"],
+    tags: ["Next.js 16", "React 19", "TypeScript", "Node.js", "Express"],
+    live: "https://dynamicchemicals.vercel.app", source: "https://github.com/thelovedhimaan/dynamic_chemicals", accent: "cyan",
+  },
+  {
+    number: "02", name: "Color Palette Studio", category: "Accessible design tooling",
+    description: "A compact color-system workspace for creating palettes, evaluating accessibility, simulating color vision, saving checkpoints, presenting work, and exporting production-ready tokens.",
+    highlights: ["WCAG contrast matrix and accessible-pair suggestions", "Color-vision previews, versions, and presentation mode", "CSS, JSON, and W3C-shaped design-token exports"],
+    tags: ["React 19", "TypeScript", "Vite", "Vitest", "WCAG"],
+    live: "https://color-pallet-drab.vercel.app", source: "https://github.com/thelovedhimaan/color-pallet", accent: "violet",
+  },
+] as const;
+
+const principles = [
+  ["01", "Useful first", "Start with the real user flow, then shape the architecture around it."],
+  ["02", "Evidence driven", "Validate accessibility, performance, security boundaries, and production behavior."],
+  ["03", "Built to operate", "Treat administration, failure states, documentation, and deployment as product work."],
+] as const;
 
 export default function WorkPage() {
   return (
-    <Column as="section" maxWidth="m" horizontal="center" gap="l">
+    <Column as="section" maxWidth="m" horizontal="center" className="work-page">
+      <Schema as="webPage" baseURL={baseURL} path={work.path} title={work.title} description={work.description} image="/images/og/home.jpg" author={{ name: person.name, url: `${baseURL}/about`, image: `${baseURL}${person.avatar}` }} />
 
-      {/* SEO */}
-      <Schema
-        as="webPage"
-        baseURL={baseURL}
-        path={work.path}
-        title={work.title}
-        description={work.description}
-        image="/images/projects/project-01/cover-01.jpg"
-        author={{
-          name: person.name,
-          url: `${baseURL}${about.path}`,
-          image: `${baseURL}${person.avatar}`,
-        }}
-      />
+      <header className="work-hero">
+        <Text variant="label-strong-s" onBackground="brand-weak">Selected product work</Text>
+        <Heading variant="display-strong-l" wrap="balance">Products designed, built, and prepared for real use.</Heading>
+        <Text variant="heading-default-m" onBackground="neutral-weak" wrap="balance">Full-stack projects combining focused interfaces, dependable workflows, technical depth, and the operational details needed beyond launch.</Text>
+        <div className="work-summary" aria-label="Portfolio summary">
+          <span><strong>2</strong> shipped products</span><span><strong>Full stack</strong> UI to operations</span><span><strong>Live</strong> production demos</span>
+        </div>
+      </header>
 
-      {/* TITLE */}
-      <Column maxWidth="s" gap="m" horizontal="center" align="center">
-        <Heading variant="display-strong-m">Selected Work</Heading>
-
-        <Text onBackground="neutral-weak">
-          Full-stack products and technical work focused on useful workflows,
-          maintainable architecture, accessibility, and measurable delivery.
-        </Text>
-      </Column>
-
-      <Column fillWidth gap="m" className="featured-work">
-        <article className="featured-project">
-          <div className="featured-project__content">
-            <Heading variant="heading-strong-m">Dynamic Chemicals</Heading>
-            <Text onBackground="neutral-weak">
-              Full-stack product catalogue, personalized multi-item ordering,
-              private tracking, JWT-protected operations, and WhatsApp, email,
-              and AI support integrations.
-            </Text>
-            <div className="featured-project__tags" aria-label="Technologies">
-              <span>Next.js</span><span>React</span><span>TypeScript</span><span>Node.js</span><span>Express</span>
+      <div className="work-projects">
+        {projects.map((project) => (
+          <article className={`work-card work-card--${project.accent}`} key={project.name}>
+            <div className="work-card__rail"><span>{project.number}</span><i aria-hidden="true" /><small>Live project</small></div>
+            <div className="work-card__body">
+              <div className="work-card__heading">
+                <div><Text variant="label-strong-s" onBackground="neutral-weak">{project.category}</Text><Heading variant="heading-strong-xl">{project.name}</Heading></div>
+                <span className="work-card__status"><i /> Production</span>
+              </div>
+              <Text onBackground="neutral-weak" className="work-card__description">{project.description}</Text>
+              <div className="work-card__details">
+                <div><Text variant="label-strong-s" onBackground="neutral-weak">What it delivers</Text><ul>{project.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}</ul></div>
+                <div><Text variant="label-strong-s" onBackground="neutral-weak">Stack</Text><div className="work-card__tags">{project.tags.map((tag) => <span key={tag}>{tag}</span>)}</div></div>
+              </div>
+              <div className="work-card__actions">
+                <a className="work-link work-link--primary" href={project.live} target="_blank" rel="noreferrer">View live <span aria-hidden="true">↗</span></a>
+                <a className="work-link" href={project.source} target="_blank" rel="noreferrer">Source code <span aria-hidden="true">↗</span></a>
+              </div>
             </div>
-          </div>
-          <a className="featured-project__link" href="https://dynamicchemicals.vercel.app" target="_blank" rel="noreferrer">
-            View live <span aria-hidden="true">↗</span>
-          </a>
-        </article>
+          </article>
+        ))}
+      </div>
 
-        <article className="featured-project">
-          <div className="featured-project__content">
-            <Heading variant="heading-strong-m">Color Palette Studio</Heading>
-            <Text onBackground="neutral-weak">
-              Accessible color-system workspace with compact editing, contrast
-              analysis, vision previews, checkpoints, presentation mode, and
-              design-token exports.
-            </Text>
-            <div className="featured-project__tags" aria-label="Technologies">
-              <span>React</span><span>TypeScript</span><span>Vite</span><span>WCAG</span><span>Design Tokens</span>
-            </div>
-          </div>
-          <a className="featured-project__link" href="https://color-pallet-drab.vercel.app" target="_blank" rel="noreferrer">
-            View live <span aria-hidden="true">↗</span>
-          </a>
-        </article>
-      </Column>
-
-      <Column maxWidth="s" gap="4" horizontal="center" align="center">
-        <Text variant="label-strong-s" onBackground="brand-weak">Engineering perspective</Text>
-        <Heading variant="heading-strong-xl">Engineering Beyond the Interface</Heading>
-      </Column>
-
-      <Row
-  gap="m"
-  fillWidth
-  horizontal="center"
-  s={{ direction: "column" }}
->
-  {post.images.map((src, i) => (
-    <Column gap="m" key={i}>
-      <Media
-        key={i}
-        priority={i === 0}
-        aspectRatio="16 / 9"
-        radius="m"
-        alt={`project image ${i + 1}`}
-        src={src}
-        style={{
-          maxHeight: "200px",
-          objectFit: "cover",
-        }}
-      />
-    </Column>
-  ))}
-</Row>
-
-      {/* CONTENT */}
-      <Column as="article" maxWidth="xs" gap="l">
-
-        <Heading variant="heading-strong-l">
-          Engineering Is More Than Code
-        </Heading>
-
-        <Text onBackground="neutral-weak">
-          Over the years, I've realized that engineering is about much more
-          than writing code or building interfaces. The real challenge is
-          understanding the problem, identifying the right constraints, and
-          making decisions that continue to work as products, teams, and
-          customers grow.
-        </Text>
-
-        <Text onBackground="neutral-weak">
-          My journey from frontend engineering to frontend architecture and
-          engineering management has changed the way I approach technology.
-          I still care deeply about implementation details, but I now think
-          equally about architecture, people, delivery, quality, and business
-          impact.
-        </Text>
-
-        <Heading variant="heading-strong-l">
-          Architecture Should Enable, Not Complicate
-        </Heading>
-
-        <Text onBackground="neutral-weak">
-          Good architecture is not about introducing more layers, patterns,
-          or abstractions. It is about creating enough structure for a system
-          to remain understandable and maintainable as it grows.
-        </Text>
-
-        <Text onBackground="neutral-weak">
-          Working with enterprise applications has reinforced the importance
-          of practical architecture. Large datasets, complex workflows,
-          customer-specific requirements, integrations, and evolving product
-          needs all require thoughtful technical decisions.
-        </Text>
-
-        <Heading variant="heading-strong-l">
-          Performance Is a Product Feature
-        </Heading>
-
-        <Text onBackground="neutral-weak">
-          Performance directly affects how users experience a product. When
-          applications handle thousands or tens of thousands of records,
-          rendering strategy and data flow become product concerns rather than
-          purely technical details.
-        </Text>
-
-        <Text onBackground="neutral-weak">
-          Techniques such as virtualization, code splitting, lazy loading,
-          optimized API interactions, and efficient rendering can make the
-          difference between an application that feels frustrating and one
-          that feels effortless.
-        </Text>
-
-        <Heading variant="heading-strong-l">
-          Building Systems That Scale With Teams
-        </Heading>
-
-        <Text onBackground="neutral-weak">
-          Technical scalability and team scalability are closely connected.
-          Reusable components, clear engineering standards, consistent
-          workflows, and well-defined ownership allow teams to move faster
-          without sacrificing quality.
-        </Text>
-
-        <Text onBackground="neutral-weak">
-          As an engineering manager, I have learned that creating clarity is
-          one of the most valuable things a technical leader can do. Clear
-          ownership, realistic planning, effective communication, and strong
-          engineering standards often have a greater impact than simply
-          increasing development speed.
-        </Text>
-
-        <Heading variant="heading-strong-l">
-          AI Is Changing How We Build Software
-        </Heading>
-
-        <Text onBackground="neutral-weak">
-          AI-assisted development has become an important part of my
-          engineering workflow. Tools such as Claude AI and GitHub Copilot
-          can accelerate implementation, exploration, documentation, and
-          repetitive engineering tasks.
-        </Text>
-
-        <Text onBackground="neutral-weak">
-          The important shift is not simply using AI to generate code. It is
-          building structured workflows around it — providing better context,
-          defining standards, documenting expectations, reviewing generated
-          output, and automating repetitive parts of the development process.
-        </Text>
-
-        <Heading variant="heading-strong-l">
-          The Balance Between Speed and Quality
-        </Heading>
-
-        <Text onBackground="neutral-weak">
-          Engineering rarely gives us perfect choices. Product requirements,
-          customer expectations, deadlines, technical debt, and available
-          resources constantly compete for attention.
-        </Text>
-
-        <Text onBackground="neutral-weak">
-          The goal is not to eliminate trade-offs. It is to make those
-          trade-offs consciously, understand their consequences, and choose
-          solutions that provide the best balance between immediate delivery
-          and long-term sustainability.
-        </Text>
-
-        <Heading variant="heading-strong-l">
-          Key Principles
-        </Heading>
-
-        <Column gap="8">
-
-          <Text onBackground="neutral-weak">
-            <strong>Build for People:</strong> Every technical decision
-            ultimately affects users and teams.
-          </Text>
-
-          <Text onBackground="neutral-weak">
-            <strong>Think Long-Term:</strong> Quick wins are valuable, but
-            sustainable architecture creates lasting impact.
-          </Text>
-
-          <Text onBackground="neutral-weak">
-            <strong>Performance Is a Feature:</strong> Fast, responsive
-            applications improve trust and user experience.
-          </Text>
-
-          <Text onBackground="neutral-weak">
-            <strong>Consistency Enables Scale:</strong> Reusable patterns
-            allow teams to move quickly and maintain quality.
-          </Text>
-
-          <Text onBackground="neutral-weak">
-            <strong>Stay Curious:</strong> Continuous learning drives
-            innovation.
-          </Text>
-
-        </Column>
-
-        <Heading variant="heading-strong-l">
-          Beyond the Interface
-        </Heading>
-
-        <Text onBackground="neutral-weak">
-          Frontend engineering gave me a strong foundation in building
-          products. Architecture taught me to think about systems. Engineering
-          leadership has taught me to think about people, execution, and
-          impact.
-        </Text>
-
-        <Text onBackground="neutral-weak">
-          Today, I see engineering as the intersection of technology, people,
-          and product. Great software is not defined only by how it looks or
-          how elegantly it is coded. It is defined by how effectively it solves
-          problems, scales with the organization, and continues to create value
-          over time.
-        </Text>
-
-      </Column>
+      <section className="work-principles">
+        <div className="work-principles__intro"><Text variant="label-strong-s" onBackground="brand-weak">How I build</Text><Heading variant="heading-strong-xl">Engineering beyond the interface</Heading><Text onBackground="neutral-weak">Each project is treated as a complete product system, including its customer journey, operating model, quality evidence, and recovery path.</Text></div>
+        <div className="work-principles__grid">
+          {principles.map(([number, title, description]) => <article key={number}><span>{number}</span><Heading variant="heading-strong-s">{title}</Heading><Text onBackground="neutral-weak">{description}</Text></article>)}
+        </div>
+      </section>
     </Column>
   );
 }
