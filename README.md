@@ -42,20 +42,6 @@ performance evidence, and practical delivery experience.
 - Node.js backend services and AI-assisted engineering workflows
 - Ongoing work in LLM integration and retrieval-augmented generation
 
-## Featured projects
-
-### Dynamic Chemicals commerce and operations platform
-
-[**View live**](https://dynamicchemicals.vercel.app) | [**Source code**](https://github.com/thelovedhimaan/dynamic_chemicals)
-
-A full-stack catalogue and order-management platform built with Next.js, React, TypeScript, Node.js, and Express. Customers can prepare multi-item personalized orders, attach reference images, continue through WhatsApp, and track progress through a private order URL. Staff use a JWT-protected admin workspace to manage pricing, review orders, publish final-product images, and send status updates through WhatsApp and email adapters. The support experience provides grounded order guidance with an optional OpenAI integration.
-
-### Color Palette Studio
-
-[**View live**](https://color-pallet-drab.vercel.app) | [**Source code**](https://github.com/thelovedhimaan/color-pallet)
-
-An accessible React color-system workspace with compact palette editing, contrast analysis, color-vision previews, version checkpoints, presentation mode, and CSS, JSON, and design-token exports.
-
 ## Technology
 
 | Area | Stack |
@@ -65,7 +51,7 @@ An accessible React color-system workspace with compact palette editing, contras
 | Styling | Sass, Once UI |
 | Content | MDX |
 | Quality | Biome, ESLint |
-| Deployment | Vercel production deployments |
+| Deployment | Vercel-ready production configuration |
 
 ## Project structure
 
@@ -103,7 +89,7 @@ npm start
 
 - Replace template entries with outcome-focused case studies
 - Add screenshots, architecture notes, technical decisions, and measurements
-- Expand the deployed full-stack case studies with measured production evidence
+- Publish modern full-stack and AI/RAG projects with tests and live demos
 - Add automated quality checks and deployment previews
 
 ## Contact
