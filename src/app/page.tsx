@@ -129,58 +129,6 @@ export default function Home() {
         </Column>
       </RevealFx>
 
-      {/* FEATURED WORK */}
-      <RevealFx translateY={12} delay={0.16}>
-        <Column fillWidth gap="l" className="featured-work">
-          <Column gap="4">
-            <Text variant="label-strong-s" onBackground="brand-weak">
-              Selected projects
-            </Text>
-            <Heading variant="heading-strong-xl">Featured Work</Heading>
-          </Column>
-
-          <Column gap="m">
-            <article className="featured-project">
-              <div className="featured-project__content">
-                <Heading variant="heading-strong-m">
-                  Dynamic Chemicals
-                </Heading>
-                <Text onBackground="neutral-weak">
-                  Full-stack product catalogue, personalized multi-item
-                  ordering, private tracking, JWT-protected operations, and
-                  WhatsApp, email, and AI support integrations.
-                </Text>
-                <div className="featured-project__tags" aria-label="Technologies">
-                  <span>Next.js</span><span>React</span><span>TypeScript</span><span>Node.js</span><span>Express</span>
-                </div>
-              </div>
-              <a className="featured-project__link" href="https://dynamicchemicals.vercel.app" target="_blank" rel="noreferrer">
-                View live <span aria-hidden="true">↗</span>
-              </a>
-            </article>
-
-            <article className="featured-project">
-              <div className="featured-project__content">
-                <Heading variant="heading-strong-m">
-                  Color Palette Studio
-                </Heading>
-                <Text onBackground="neutral-weak">
-                  Accessible color-system workspace with compact editing,
-                  contrast analysis, vision previews, checkpoints,
-                  presentation mode, and design-token exports.
-                </Text>
-                <div className="featured-project__tags" aria-label="Technologies">
-                  <span>React</span><span>TypeScript</span><span>Vite</span><span>WCAG</span><span>Design Tokens</span>
-                </div>
-              </div>
-              <a className="featured-project__link" href="https://color-pallet-drab.vercel.app" target="_blank" rel="noreferrer">
-                View live <span aria-hidden="true">↗</span>
-              </a>
-            </article>
-          </Column>
-        </Column>
-      </RevealFx>
-
       {/* SPLIT SECTION */}
       <RevealFx translateY={12} delay={0.2}>
         <Column fillWidth gap="xl">

@@ -12,11 +12,10 @@ import { baseURL, about, person, work } from "@/resources";
 
 export async function generateMetadata() {
   return Meta.generate({
-    title: "Engineering Beyond the Interface",
-    description:
-      "A perspective on frontend architecture, engineering leadership, performance, AI-assisted development, and building scalable software systems.",
+    title: work.title,
+    description: work.description,
     baseURL,
-    path: `${work.path}/engineering-beyond-the-interface`,
+    path: work.path,
     image: "/images/projects/project-01/cover-01.jpg",
   });
 }
@@ -46,13 +45,11 @@ export default function WorkPage() {
 
       {/* SEO */}
       <Schema
-        as="blogPosting"
+        as="webPage"
         baseURL={baseURL}
-        path={`${work.path}/engineering-beyond-the-interface`}
-        title="Engineering Beyond the Interface"
-        description="A perspective on frontend architecture, engineering leadership, performance, AI-assisted development, and building scalable software systems."
-        datePublished="2026-06-14"
-        dateModified="2026-06-14"
+        path={work.path}
+        title={work.title}
+        description={work.description}
         image="/images/projects/project-01/cover-01.jpg"
         author={{
           name: person.name,
@@ -63,14 +60,53 @@ export default function WorkPage() {
 
       {/* TITLE */}
       <Column maxWidth="s" gap="m" horizontal="center" align="center">
-        <Heading variant="display-strong-m">
-          Engineering Beyond the Interface
-        </Heading>
+        <Heading variant="display-strong-m">Selected Work</Heading>
 
         <Text onBackground="neutral-weak">
-          Building scalable systems, leading engineering teams, and making
-          technology decisions that create lasting product impact.
+          Full-stack products and technical work focused on useful workflows,
+          maintainable architecture, accessibility, and measurable delivery.
         </Text>
+      </Column>
+
+      <Column fillWidth gap="m" className="featured-work">
+        <article className="featured-project">
+          <div className="featured-project__content">
+            <Heading variant="heading-strong-m">Dynamic Chemicals</Heading>
+            <Text onBackground="neutral-weak">
+              Full-stack product catalogue, personalized multi-item ordering,
+              private tracking, JWT-protected operations, and WhatsApp, email,
+              and AI support integrations.
+            </Text>
+            <div className="featured-project__tags" aria-label="Technologies">
+              <span>Next.js</span><span>React</span><span>TypeScript</span><span>Node.js</span><span>Express</span>
+            </div>
+          </div>
+          <a className="featured-project__link" href="https://dynamicchemicals.vercel.app" target="_blank" rel="noreferrer">
+            View live <span aria-hidden="true">↗</span>
+          </a>
+        </article>
+
+        <article className="featured-project">
+          <div className="featured-project__content">
+            <Heading variant="heading-strong-m">Color Palette Studio</Heading>
+            <Text onBackground="neutral-weak">
+              Accessible color-system workspace with compact editing, contrast
+              analysis, vision previews, checkpoints, presentation mode, and
+              design-token exports.
+            </Text>
+            <div className="featured-project__tags" aria-label="Technologies">
+              <span>React</span><span>TypeScript</span><span>Vite</span><span>WCAG</span><span>Design Tokens</span>
+            </div>
+          </div>
+          <a className="featured-project__link" href="https://color-pallet-drab.vercel.app" target="_blank" rel="noreferrer">
+            View live <span aria-hidden="true">↗</span>
+          </a>
+        </article>
+      </Column>
+
+      <Column maxWidth="s" gap="4" horizontal="center" align="center">
+        <Text variant="label-strong-s" onBackground="brand-weak">Engineering perspective</Text>
+        <Heading variant="heading-strong-xl">Engineering Beyond the Interface</Heading>
       </Column>
 
       <Row
