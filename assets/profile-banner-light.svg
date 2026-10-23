@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Love Dhimaan - Engineering Manager and Frontend Architect</title>
+  <desc id="description">A light technical banner with a product interface panel.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.6" stop-color="#f5f7ff"/><stop offset="1" stop-color="#eef7fb"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#087ea4"/><stop offset="1" stop-color="#6d4aff"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
+  <circle cx="1060" cy="45" r="125" fill="#8b7aff" opacity="0.13" filter="url(#glow)"/><circle cx="825" cy="335" r="135" fill="#34c9e8" opacity="0.13" filter="url(#glow)"/>
+  <g opacity="0.42" stroke="#d8deec"><path d="M0 72H1200M0 144H1200M0 216H1200M0 288H1200"/><path d="M80 0V360M160 0V360M240 0V360M320 0V360M400 0V360M480 0V360M560 0V360M640 0V360M720 0V360M800 0V360M880 0V360M960 0V360M1040 0V360M1120 0V360"/></g>
+  <g transform="translate(68 68)">
+    <rect width="8" height="224" rx="4" fill="url(#accent)"/>
+    <text x="38" y="38" fill="#58677c" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="3">ENGINEERING LEADERSHIP × PRODUCT ARCHITECTURE</text>
+    <text x="38" y="105" fill="#111827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="750">Love Dhimaan</text>
+    <text x="38" y="151" fill="url(#accent)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="650">Engineering Manager · Frontend Architect</text>
+    <text x="38" y="193" fill="#425168" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">Scaling enterprise SaaS, engineering teams, and AI-enabled systems.</text>
+  </g>
+  <g transform="translate(844 78)">
+    <rect width="288" height="204" rx="18" fill="#ffffff" stroke="#d9e0ef"/><rect x="18" y="18" width="252" height="34" rx="9" fill="#f1f4fa"/><circle cx="36" cy="35" r="5" fill="#087ea4"/><rect x="52" y="30" width="82" height="9" rx="4.5" fill="#aab5c7"/>
+    <rect x="18" y="68" width="76" height="116" rx="12" fill="#f3f6fb"/><rect x="108" y="68" width="162" height="52" rx="12" fill="#f3f6fb"/><rect x="108" y="134" width="162" height="50" rx="12" fill="#f3f6fb"/>
+    <path d="M123 105L147 88L171 99L199 79L225 91L253 76" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="32" y="91" width="48" height="8" rx="4" fill="#087ea4"/><rect x="32" y="111" width="38" height="8" rx="4" fill="#aab5c7"/><rect x="32" y="131" width="48" height="8" rx="4" fill="#6d4aff"/><rect x="32" y="151" width="30" height="8" rx="4" fill="#aab5c7"/><circle cx="130" cy="159" r="9" fill="#087ea4"/><path d="M150 159H248" stroke="#bcc6d6" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>
