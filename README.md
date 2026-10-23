@@ -21,6 +21,12 @@
 |:---:|:---:|:---:|
 | Frontend, backend, mobile, and AI | Interfaces handling 10K-50K+ records | Enterprise customer workflows |
 
+## Technology at a glance
+
+| Product engineering | Backend and data | Platforms and delivery | Integrations and quality |
+|:---|:---|:---|:---|
+| React 19, Next.js 16, TypeScript, Vite, Sass, design systems | Node.js, Express 5, Python, Django REST, PostgreSQL, pgvector, Supabase, Redis, MongoDB | Docker Compose, AWS EC2/EBS/SSM, CloudFormation, Jenkins, Kafka, GitHub Actions, Vercel | AniList GraphQL, Google OAuth, JWT, WhatsApp Cloud API, Resend, OpenAI Responses, Vitest, Testing Library, axe-core/WCAG |
+
 ## How I work
 
 <table>
@@ -51,34 +57,34 @@
 <table>
   <tr>
     <td valign="top">
-      <h3><a href="https://github.com/thelovedhimaan/thelovedhimaan-portfolio">Engineering portfolio</a></h3>
-      <p>A Next.js portfolio focused on engineering leadership, frontend architecture, measurable performance work, and hands-on product delivery.</p>
-      <p><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>MDX</code> <code>Sass</code></p>
-      <p><a href="https://thelovedhimaan.com"><img src="./assets/button-view-live.svg" alt="View Engineering portfolio live" height="28"></a></p>
+      <h3>01 · <a href="https://github.com/thelovedhimaan/animae-search">Anime Index</a></h3>
+      <p>The most architecturally complex current project: an AWS-hosted anime discovery platform with live provider aggregation, normalized APIs, caching, container orchestration, and a production delivery path.</p>
+      <p><code>Next.js 16</code> <code>React 19</code> <code>TypeScript</code> <code>Python</code> <code>Django REST</code> <code>PostgreSQL</code> <code>pgvector</code> <code>Redis</code> <code>AniList GraphQL</code> <code>Docker Compose</code> <code>AWS EC2</code> <code>CloudFormation</code> <code>Jenkins</code> <code>Kafka</code></p>
+      <p><a href="http://ec2-13-232-238-146.ap-south-1.compute.amazonaws.com"><img src="./assets/button-view-live.svg" alt="View Anime Index live" height="28"></a></p>
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <h3><a href="https://github.com/thelovedhimaan/color-pallet">Color Palette Studio</a></h3>
-      <p>A completed, local-first color workspace for building palettes, checking WCAG contrast, simulating color-vision deficiencies, saving versions, sharing palettes, and exporting design tokens.</p>
-      <p><code>React 19</code> <code>TypeScript</code> <code>Vite</code> <code>Vitest</code> <code>WCAG</code></p>
-      <p><a href="https://color-pallet-drab.vercel.app"><img src="./assets/button-view-live.svg" alt="View Color Palette Studio live" height="28"></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <h3><a href="https://github.com/thelovedhimaan/dynamic_chemicals">Dynamic Chemicals</a></h3>
-      <p>A full-stack catalogue and order operations platform with multi-item personalization, image previews, private tracking, admin-managed pricing and status updates, and WhatsApp, email, and AI support integrations.</p>
-      <p><code>Next.js 16</code> <code>React 19</code> <code>TypeScript</code> <code>Node.js</code> <code>Express</code></p>
+      <h3>02 · <a href="https://github.com/thelovedhimaan/dynamic_chemicals">Dynamic Chemicals</a></h3>
+      <p>A commerce and operations platform with catalogue discovery, multi-item personalization, uploads, private tracking, staff pricing and status workflows, notifications, and AI-assisted support.</p>
+      <p><code>Next.js 16</code> <code>React 19</code> <code>TypeScript</code> <code>Node.js</code> <code>Express 5</code> <code>Supabase Postgres</code> <code>JWT</code> <code>WhatsApp Cloud API</code> <code>Resend</code> <code>OpenAI Responses</code> <code>Vercel</code></p>
       <p><a href="https://dynamicchemicals.vercel.app"><img src="./assets/button-view-live.svg" alt="View Dynamic Chemicals live" height="28"></a></p>
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <h3><a href="https://github.com/thelovedhimaan/animae-search">Anime Index</a></h3>
-      <p>An AWS-hosted anime discovery platform with live AniList search and title data, a normalized Django API, resilient Redis caching, and a containerized PostgreSQL-backed architecture.</p>
-      <p><code>Next.js 16</code> <code>Django</code> <code>PostgreSQL</code> <code>Redis</code> <code>Docker</code> <code>AWS</code></p>
-      <p><a href="http://ec2-13-232-238-146.ap-south-1.compute.amazonaws.com"><img src="./assets/button-view-live.svg" alt="View Anime Index live" height="28"></a></p>
+      <h3>03 · <a href="https://github.com/thelovedhimaan/color-pallet">Color Palette Studio</a></h3>
+      <p>A cloud-backed accessible color workspace with private accounts, ownership policies, read-only sharing, WCAG analysis, color-vision simulation, version history, presentation mode, and design-token export.</p>
+      <p><code>React 19</code> <code>TypeScript</code> <code>Vite 6</code> <code>Supabase Auth</code> <code>Google OAuth</code> <code>PostgreSQL RLS</code> <code>Vitest</code> <code>Testing Library</code> <code>axe-core</code> <code>WCAG</code> <code>GitHub Actions</code> <code>Vercel</code></p>
+      <p><a href="https://color-pallet-drab.vercel.app"><img src="./assets/button-view-live.svg" alt="View Color Palette Studio live" height="28"></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>04 · <a href="https://github.com/thelovedhimaan/lovedhimaan">Engineering portfolio</a></h3>
+      <p>A content-driven engineering portfolio presenting leadership, architecture, measured outcomes, and production project work through responsive case-study interfaces.</p>
+      <p><code>Next.js 16</code> <code>React 19</code> <code>TypeScript</code> <code>Once UI</code> <code>MDX</code> <code>Sass</code> <code>Biome</code> <code>ESLint</code> <code>Vercel</code></p>
+      <p><a href="https://thelovedhimaan.com"><img src="./assets/button-view-live.svg" alt="View Engineering portfolio live" height="28"></a></p>
     </td>
   </tr>
 </table>
@@ -106,10 +112,12 @@ measurable results, and a live demonstration.
 ## Core toolkit
 
 ```text
-PRODUCT       React · Next.js · TypeScript · Node.js · Express
-DATA          PostgreSQL · MongoDB · REST APIs
-SYSTEMS       Design systems · Performance · Docker · CI/CD · AWS
-AI            LLM integration · RAG · Evaluation · Observability
+PRODUCT       React · Next.js · TypeScript · Vite · Sass · Design systems
+BACKEND       Node.js · Express · Python · Django REST · REST · GraphQL
+DATA          PostgreSQL · pgvector · Supabase · Redis · MongoDB
+SYSTEMS       Docker · AWS · CloudFormation · Jenkins · Kafka · CI/CD · Vercel
+QUALITY       Vitest · Testing Library · axe-core · WCAG · ESLint · Biome
+AI            OpenAI Responses · LLM integration · RAG · Evaluation · Observability
 LEADERSHIP    Architecture · Hiring · Mentoring · Delivery · Releases
 ```
 
