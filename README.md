@@ -1,4 +1,4 @@
-﻿<picture>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/profile-banner-light.svg">
   <img alt="Love Dhimaan - Engineering Manager and Frontend Architect" src="./assets/profile-banner-light.svg" width="100%">
@@ -128,4 +128,3 @@ LEADERSHIP    Architecture Â· Hiring Â· Mentoring Â· Delivery Â· Release
   Open to Engineering Manager, Frontend Architect, Technical Lead,<br>
   and hands-on product engineering opportunities.
 </p>
-
