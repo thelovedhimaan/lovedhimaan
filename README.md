@@ -24,8 +24,8 @@ Manager and Frontend Architect building enterprise SaaS products, scalable
 frontend systems, and high-performing engineering teams.
 
 The site presents engineering work through outcomes, architecture decisions,
-performance evidence, and practical delivery experience. Its Work page covers
-three live full-stack products, ordered by current architecture and operational
+performance evidence, and practical delivery experience. Its Work page presents
+live full-stack products ordered by current architecture and operational
 complexity: Anime Index, Dynamic Chemicals, and Color Palette Studio.
 
 ## Impact
@@ -90,7 +90,7 @@ npm start
 
 ## Current focus
 
-- Expand the three live projects into outcome-focused case studies
+- Expand the live projects into outcome-focused case studies
 - Add screenshots, architecture notes, technical decisions, and measurements
 - Develop Anime Index discovery flows before its domain and HTTPS rollout
 - Add automated quality checks and deployment evidence

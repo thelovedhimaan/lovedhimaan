@@ -46,7 +46,7 @@ export default function WorkPage() {
         <Heading variant="display-strong-l" wrap="balance">Products designed, built, and prepared for real use.</Heading>
         <Text variant="heading-default-m" onBackground="neutral-weak" wrap="balance">Full-stack projects combining focused interfaces, dependable workflows, technical depth, and the operational details needed beyond launch.</Text>
         <div className="work-summary" aria-label="Portfolio summary">
-          <span><strong>3</strong> shipped products</span><span><strong>Full stack</strong> UI to operations</span><span><strong>Live</strong> product demos</span>
+          <span><strong>Full stack</strong> UI to operations</span><span><strong>Live</strong> product demos</span>
         </div>
       </header>
 
