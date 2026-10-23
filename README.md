@@ -24,7 +24,8 @@ Manager and Frontend Architect building enterprise SaaS products, scalable
 frontend systems, and high-performing engineering teams.
 
 The site presents engineering work through outcomes, architecture decisions,
-performance evidence, and practical delivery experience.
+performance evidence, and practical delivery experience. Its Work page covers
+three live full-stack products, including the AWS-hosted Anime Index rebuild.
 
 ## Impact
 
@@ -87,10 +88,10 @@ npm start
 
 ## Current focus
 
-- Replace template entries with outcome-focused case studies
+- Expand the three live projects into outcome-focused case studies
 - Add screenshots, architecture notes, technical decisions, and measurements
-- Publish modern full-stack and AI/RAG projects with tests and live demos
-- Add automated quality checks and deployment previews
+- Develop Anime Index discovery flows before its domain and HTTPS rollout
+- Add automated quality checks and deployment evidence
 
 ## Contact
 

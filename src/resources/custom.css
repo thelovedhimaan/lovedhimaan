@@ -158,6 +158,7 @@
 .work-projects { display: grid; gap: 1.25rem; width: 100%; }
 .work-card { --project-accent: 97, 218, 251; display: grid; grid-template-columns: 5rem minmax(0, 1fr); overflow: hidden; border: 1px solid var(--neutral-alpha-medium); border-radius: 1.25rem; background: linear-gradient(135deg, rgba(var(--project-accent), .08), transparent 34%), var(--page-background); box-shadow: inset 0 1px rgba(255,255,255,.05), 0 1.5rem 4rem rgba(0,0,0,.16); transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease; }
 .work-card--violet { --project-accent: 139, 113, 255; }
+.work-card--lime { --project-accent: 190, 242, 100; }
 .work-card:hover { transform: translateY(-3px); border-color: rgba(var(--project-accent), .45); box-shadow: inset 0 1px rgba(255,255,255,.07), 0 2rem 5rem rgba(0,0,0,.22); }
 .work-card__rail { display: flex; flex-direction: column; align-items: center; gap: .75rem; padding: 1.5rem .75rem; border-right: 1px solid var(--neutral-alpha-medium); color: rgba(var(--project-accent), .95); }
 .work-card__rail > span { font-family: var(--font-code); font-size: .8rem; font-weight: 700; }

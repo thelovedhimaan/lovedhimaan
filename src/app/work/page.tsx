@@ -21,6 +21,13 @@ const projects = [
     tags: ["React 19", "TypeScript", "Vite", "Vitest", "WCAG"],
     live: "https://color-pallet-drab.vercel.app", source: "https://github.com/thelovedhimaan/color-pallet", accent: "violet",
   },
+  {
+    number: "03", name: "Anime Index", category: "Anime discovery platform",
+    description: "A production-oriented anime discovery application combining a modern catalogue interface with a normalized aggregation API, resilient provider access, and an AWS-hosted container stack.",
+    highlights: ["Live AniList trending, search, and title-detail flows", "Redis caching with graceful API and provider fallback states", "Containerized Next.js, Django, PostgreSQL, and Redis deployment on AWS"],
+    tags: ["Next.js 16", "Django", "PostgreSQL", "Redis", "Docker", "AWS"],
+    live: "http://ec2-13-232-238-146.ap-south-1.compute.amazonaws.com", source: "https://github.com/thelovedhimaan/animae-search", accent: "lime",
+  },
 ] as const;
 
 const principles = [
@@ -39,7 +46,7 @@ export default function WorkPage() {
         <Heading variant="display-strong-l" wrap="balance">Products designed, built, and prepared for real use.</Heading>
         <Text variant="heading-default-m" onBackground="neutral-weak" wrap="balance">Full-stack projects combining focused interfaces, dependable workflows, technical depth, and the operational details needed beyond launch.</Text>
         <div className="work-summary" aria-label="Portfolio summary">
-          <span><strong>2</strong> shipped products</span><span><strong>Full stack</strong> UI to operations</span><span><strong>Live</strong> production demos</span>
+          <span><strong>3</strong> shipped products</span><span><strong>Full stack</strong> UI to operations</span><span><strong>Live</strong> product demos</span>
         </div>
       </header>
 
