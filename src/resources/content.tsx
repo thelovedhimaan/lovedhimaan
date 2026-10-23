@@ -276,8 +276,8 @@ const about: About = {
         description: (
           <>
             Building modern, high-performance web applications using React.js,
-            Next.js, TypeScript, JavaScript, HTML5, and CSS3 with a focus on
-            scalable and maintainable UI architecture.
+            Next.js, Vite, TypeScript, JavaScript, HTML5, CSS3, and Sass with a
+            focus on scalable and maintainable UI architecture.
           </>
         ),
         tags: [
@@ -287,6 +287,8 @@ const about: About = {
           { name: "JavaScript", icon: "javascript" },
           { name: "HTML5", icon: "html5" },
           { name: "CSS3", icon: "css3" },
+          { name: "Sass", icon: "sass" },
+          { name: "Vite", icon: "vite" },
         ],
         images: [],
       },
@@ -314,13 +316,14 @@ const about: About = {
         title: "State Management & API Integration",
         description: (
           <>
-            Managing complex application state and integrating REST APIs with
-            optimized frontend-backend data flows. Experience with React Query
-            and AI API integrations.
+            Managing complex application state and integrating REST and GraphQL
+            APIs with optimized frontend-backend data flows, normalized provider
+            contracts, caching, and resilient fallback behavior.
           </>
         ),
         tags: [
           { name: "REST APIs", icon: "api" },
+          { name: "GraphQL", icon: "graphql" },
           { name: "React Query", icon: "reactquery" },
           { name: "State Management", icon: "state" },
           { name: "AI APIs", icon: "ai" },
@@ -332,16 +335,70 @@ const about: About = {
         title: "Backend & Databases",
         description: (
           <>
-            Growing hands-on experience developing backend services using Node.js
-            and Express.js, with relational and NoSQL databases including
-            PostgreSQL and MongoDB.
+            Developing backend services with Node.js, Express, Python, Django,
+            and Django REST Framework, backed by PostgreSQL, pgvector, Supabase,
+            Redis, and MongoDB where each data model fits.
           </>
         ),
         tags: [
           { name: "Node.js", icon: "nodejs" },
           { name: "Express.js", icon: "express" },
+          { name: "Python", icon: "python" },
+          { name: "Django", icon: "django" },
+          { name: "Django REST Framework", icon: "django" },
           { name: "PostgreSQL", icon: "postgresql" },
+          { name: "pgvector", icon: "postgresql" },
+          { name: "Supabase", icon: "supabase" },
+          { name: "Redis", icon: "redis" },
           { name: "MongoDB", icon: "mongodb" },
+        ],
+        images: [],
+      },
+
+      {
+        title: "Cloud, Containers & Delivery",
+        description: (
+          <>
+            Shipping containerized applications through Vercel and AWS using
+            Docker Compose, EC2, CloudFormation, EBS, Systems Manager, Jenkins,
+            GitHub Actions, and event-ready Kafka infrastructure.
+          </>
+        ),
+        tags: [
+          { name: "Docker", icon: "docker" },
+          { name: "Docker Compose", icon: "docker" },
+          { name: "AWS EC2", icon: "aws" },
+          { name: "AWS CloudFormation", icon: "aws" },
+          { name: "AWS EBS & SSM", icon: "aws" },
+          { name: "Jenkins", icon: "jenkins" },
+          { name: "GitHub Actions", icon: "githubactions" },
+          { name: "Apache Kafka", icon: "kafka" },
+          { name: "Vercel", icon: "vercel" },
+        ],
+        images: [],
+      },
+
+      {
+        title: "Authentication, Integrations & Quality",
+        description: (
+          <>
+            Building secure user and admin flows with Google OAuth, Supabase
+            Auth and row-level security, and JWT cookies; integrating AniList,
+            WhatsApp, Resend, and OpenAI; and validating releases with automated
+            accessibility, component, API, and production-build checks.
+          </>
+        ),
+        tags: [
+          { name: "Google OAuth", icon: "google" },
+          { name: "Supabase Auth & RLS", icon: "supabase" },
+          { name: "JSON Web Tokens", icon: "jwt" },
+          { name: "AniList GraphQL", icon: "graphql" },
+          { name: "WhatsApp Cloud API", icon: "whatsapp" },
+          { name: "Resend", icon: "email" },
+          { name: "OpenAI Responses", icon: "openai" },
+          { name: "Vitest", icon: "vitest" },
+          { name: "Testing Library", icon: "testinglibrary" },
+          { name: "axe-core & WCAG", icon: "eye" },
         ],
         images: [],
       },
@@ -378,6 +435,7 @@ const about: About = {
           { name: "Cursor AI", icon: "cursor" },
           { name: "AI-Assisted Development", icon: "ai" },
           { name: "Prompt Engineering", icon: "prompt" },
+          { name: "OpenAI Responses API", icon: "openai" },
           { name: "Git", icon: "git" },
           { name: "GitHub", icon: "github" },
           { name: "Figma", icon: "figma" },

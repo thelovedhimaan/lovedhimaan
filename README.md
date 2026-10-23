@@ -25,7 +25,8 @@ frontend systems, and high-performing engineering teams.
 
 The site presents engineering work through outcomes, architecture decisions,
 performance evidence, and practical delivery experience. Its Work page covers
-three live full-stack products, including the AWS-hosted Anime Index rebuild.
+three live full-stack products, ordered by current architecture and operational
+complexity: Anime Index, Dynamic Chemicals, and Color Palette Studio.
 
 ## Impact
 
@@ -45,14 +46,15 @@ three live full-stack products, including the AWS-hosted Anime Index rebuild.
 
 ## Technology
 
-| Area | Stack |
+| Area | Stack represented in the portfolio and featured projects |
 | :--- | :--- |
-| Framework | Next.js 16, React 19 |
-| Language | TypeScript 5 |
-| Styling | Sass, Once UI |
-| Content | MDX |
-| Quality | Biome, ESLint |
-| Deployment | Vercel-ready production configuration |
+| Frontend | Next.js 16, React 19, TypeScript, JavaScript, Vite 6, HTML5, CSS3, Sass, Once UI, MDX |
+| Backend and APIs | Node.js, Express 5, Python 3.12, Django 5, Django REST Framework, REST, GraphQL, Gunicorn |
+| Data and cache | PostgreSQL, pgvector, Supabase Postgres, row-level security, Redis, MongoDB |
+| Authentication and security | Google OAuth, Supabase Auth, JWT in secure HTTP-only cookies, Helmet, CORS, API throttling |
+| External integrations | AniList GraphQL, Meta WhatsApp Cloud API, Resend, OpenAI Responses API |
+| Cloud and delivery | Docker, Docker Compose, AWS EC2, EBS, Systems Manager, CloudFormation, Jenkins, Kafka, GitHub Actions, Vercel |
+| Quality and accessibility | TypeScript, ESLint, Biome, Vitest, Testing Library, jsdom, axe-core, WCAG checks, Node test runner, bundle budgets |
 
 ## Project structure
 

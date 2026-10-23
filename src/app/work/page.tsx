@@ -8,25 +8,25 @@ export async function generateMetadata() {
 
 const projects = [
   {
-    number: "01", name: "Dynamic Chemicals", category: "Full-stack commerce and operations",
-    description: "A production catalogue and order-management platform for personalized chemical products, covering discovery, multi-item requests, private tracking, pricing, and staff operations.",
-    highlights: ["Multi-item ordering with customization and image previews", "JWT-protected admin pricing and order workflows", "WhatsApp, email, and grounded AI support adapters"],
-    tags: ["Next.js 16", "React 19", "TypeScript", "Node.js", "Express"],
+    number: "01", name: "Anime Index", category: "Distributed discovery platform",
+    description: "A production-oriented anime discovery application combining a modern catalogue interface with a normalized aggregation API, resilient provider access, and an AWS-hosted container stack.",
+    highlights: ["Live AniList GraphQL trending, search, and title-detail flows", "Django REST API with Redis caching and graceful provider fallbacks", "Dockerized Next.js, Django, pgvector/PostgreSQL, and Redis on AWS EC2"],
+    tags: ["Next.js 16", "React 19", "TypeScript", "Python", "Django REST", "PostgreSQL", "pgvector", "Redis", "GraphQL", "Docker Compose", "AWS EC2", "CloudFormation", "Jenkins", "Kafka"],
+    live: "http://ec2-13-232-238-146.ap-south-1.compute.amazonaws.com", source: "https://github.com/thelovedhimaan/animae-search", accent: "lime",
+  },
+  {
+    number: "02", name: "Dynamic Chemicals", category: "Commerce and operations platform",
+    description: "A production catalogue and order-management platform for personalized chemical products, covering discovery, multi-item requests, private tracking, pricing, notifications, and staff operations.",
+    highlights: ["Multi-item ordering with customization and image previews", "Express API, Supabase persistence, and JWT-protected administration", "Meta WhatsApp, Resend email, and optional OpenAI support integrations"],
+    tags: ["Next.js 16", "React 19", "TypeScript", "Node.js", "Express 5", "Supabase", "PostgreSQL", "JWT", "WhatsApp API", "Resend", "OpenAI Responses", "Vercel"],
     live: "https://dynamicchemicals.vercel.app", source: "https://github.com/thelovedhimaan/dynamic_chemicals", accent: "cyan",
   },
   {
-    number: "02", name: "Color Palette Studio", category: "Accessible design tooling",
-    description: "A compact color-system workspace for creating palettes, evaluating accessibility, simulating color vision, saving checkpoints, presenting work, and exporting production-ready tokens.",
-    highlights: ["WCAG contrast matrix and accessible-pair suggestions", "Color-vision previews, versions, and presentation mode", "CSS, JSON, and W3C-shaped design-token exports"],
-    tags: ["React 19", "TypeScript", "Vite", "Vitest", "WCAG"],
+    number: "03", name: "Color Palette Studio", category: "Accessible design tooling",
+    description: "A cloud-backed color-system workspace for creating private palettes, evaluating accessibility, saving checkpoints, sharing snapshots, and exporting production-ready tokens.",
+    highlights: ["Google OAuth, Supabase Postgres, ownership policies, and read-only sharing", "WCAG contrast analysis, color-vision previews, and version history", "Vitest, Testing Library, axe-core, bundle budgets, and GitHub Actions"],
+    tags: ["React 19", "TypeScript", "Vite 6", "Supabase Auth", "Google OAuth", "PostgreSQL RLS", "Vitest", "Testing Library", "axe-core", "WCAG", "GitHub Actions", "Vercel"],
     live: "https://color-pallet-drab.vercel.app", source: "https://github.com/thelovedhimaan/color-pallet", accent: "violet",
-  },
-  {
-    number: "03", name: "Anime Index", category: "Anime discovery platform",
-    description: "A production-oriented anime discovery application combining a modern catalogue interface with a normalized aggregation API, resilient provider access, and an AWS-hosted container stack.",
-    highlights: ["Live AniList trending, search, and title-detail flows", "Redis caching with graceful API and provider fallback states", "Containerized Next.js, Django, PostgreSQL, and Redis deployment on AWS"],
-    tags: ["Next.js 16", "Django", "PostgreSQL", "Redis", "Docker", "AWS"],
-    live: "http://ec2-13-232-238-146.ap-south-1.compute.amazonaws.com", source: "https://github.com/thelovedhimaan/animae-search", accent: "lime",
   },
 ] as const;
 
