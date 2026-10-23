@@ -73,24 +73,32 @@
       <p><a href="https://dynamicchemicals.vercel.app"><img src="./assets/button-view-live.svg" alt="View Dynamic Chemicals live" height="28"></a></p>
     </td>
   </tr>
+  <tr>
+    <td valign="top">
+      <h3><a href="https://github.com/thelovedhimaan/animae-search">Anime Index</a></h3>
+      <p>An AWS-hosted anime discovery platform with live AniList search and title data, a normalized Django API, resilient Redis caching, and a containerized PostgreSQL-backed architecture.</p>
+      <p><code>Next.js 16</code> <code>Django</code> <code>PostgreSQL</code> <code>Redis</code> <code>Docker</code> <code>AWS</code></p>
+      <p><a href="http://ec2-13-232-238-146.ap-south-1.compute.amazonaws.com"><img src="./assets/button-view-live.svg" alt="View Anime Index live" height="28"></a></p>
+    </td>
+  </tr>
 </table>
 
 ## Building next
 
-**01 — Analytics workspace**
+**01 — Deeper anime discovery**
 
-High-performance exploration of large datasets, with documented architecture
-decisions and performance evidence.
+Complete Anime Index shelves, shareable search filters, pagination, relationship
+graphs, character and studio pages, and verified viewing availability.
 
-**02 — Onboarding pipeline**
+**02 — Personal anime libraries**
 
-Resilient CSV mapping and validation, background processing, progress tracking,
-and actionable error recovery.
+Google sign-in, privacy controls, watchlists, viewing states, ratings, notes,
+recommendation feedback, and notification preferences.
 
-**03 — AI incident intelligence**
+**03 — Grounded anime intelligence**
 
-RAG-assisted root-cause analysis with source citations, evaluation,
-observability, and guardrails.
+Natural-language discovery and spoiler-aware Q&A with source citations,
+evaluation, observability, quotas, and safe fallback behavior.
 
 Every project will ship with tests, CI checks, technical documentation,
 measurable results, and a live demonstration.
